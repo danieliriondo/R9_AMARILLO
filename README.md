@@ -12,20 +12,42 @@ Aquí se tienen que incluir todos los datos que se han otorgado al principido de
 ### Transformados
 Datos generados después de la limpieza
 
-## _01_Ingesta_Limpieza
-En este script, se cargan y se limpian todos los datos que se van a utilizar en el reto.
+## Limpieza
+En esta carpeta se encuentra el script de ingesta donde se cargan y se limpian todos los datos que se van a utilizar en el reto.
 
-## Modelos adicionales
+## Análisis
 **(Se recomienda encarecidamente ejecutar después de *_01_Ingesta_Limpieza*)**
-En este ipynb se encuentra la comprobación y evaluación de diferentes modelos, con ejecutar *_02_modelado* es suficiente, pero aquí se puede ver el proceso de selección seguido y la lógica aplicada.
+En esta carpeta se encuentran 2 scripts
 
-## _02_Modelado
-En este script se preparan los modelos que se van a utilizar para hacer los analisis en el reto. Al ejecutar el script se podrán ver las diferentes técnicas utilizadas para hacer los modelos que luego serán utilizados. Además, algunos modelos se ejecutan en el propio script.
+### 
+En este ipynb se encuentra el análisis y la selección de los activos financieros que formarán la cartera
 
-## _03_Finanzas 
-En este script se hace todo lo referente al apartado de finanzas del reto, todas las funciones y también se le da respuesta a los diferentes apartados del reto además de hacer los cálculos para las diferentes propuestas.
+### 
+En este ipynb se realiza la descomposicón de las series temporales en sus componentes 
+
+## Métodos
+En esta carpeta se encuentran los scripts que contienen el desarrollo de los diferentes métodos
+
+### RNN
+Este script contiene la implementación de una Red Neuronal Recurrente (RNN) para la predicción de las series temporales.
+
+### Montecarlo
+En este script se realiza la simulación de MonteCarlo y el cálculo a través de la fórmula cerrada proporcionada por BBVA
+
+### Comparación de métodos
+En este script se comparan los resultados de los 3 métodos:
+  - Montecarlo
+  - Fórmula cerrada BBVA
+  - RNN
 
 ## Graficos.ipynb
 Aquí se ubican los gráficos creados para luego ser utilizado en informe o presentaciones.
 
+## Integrantes
+- Anne Martin Basterrechea
+- Gorka Fernandez Arnaiz
+- Martina Virgina Alvarez Tejerina
+- Garazi Martinez de Marigorta Corral
+- Daniel Iriondo Echano
+- Leire Silva Cisneros
 
