@@ -30,7 +30,7 @@ En este script  se cargan, se limpian y procesan los datos que se van a utilizar
 En este ipynb se encuentra el análisis y la selección de los activos financieros que formarán la cartera
 
 ## 03-Analisis_activos.ipynb
-En este ipynb se realiza la descomposicón de las series temporales. (Data Science)
+En este ipynb se realiza la descomposicón de las series temporales. 
 
 ## 04-MonteCarlo_y_Formula_cerrada.ipynb
 En este script se realiza la simulación de MonteCarlo y el cálculo a través de la fórmula cerrada proporcionada por BBVA
