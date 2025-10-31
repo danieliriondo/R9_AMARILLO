@@ -7,7 +7,10 @@ Cosas a tener en cuenta:
 En estas carpetas estan o se tienen que ubicar todos los datos utilizados.
 
 ### Originales
-Aquí se tienen que incluir todos los datos que se han otorgado al principido del reto.
+Aquí se tienen que incluir todos los datos que se han otorgado al principido del reto  (csv proporcionados por BBVA)
+
+### Transformados
+Datos generados después de la limpieza
 
 ## _01_Ingesta_Limpieza
 En este script, se cargan y se limpian todos los datos que se van a utilizar en el reto.
