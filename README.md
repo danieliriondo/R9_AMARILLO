@@ -12,36 +12,32 @@ Aquí se tienen que incluir todos los datos que se han otorgado al principido de
 ### Transformados
 Datos generados después de la limpieza
 
-## Limpieza
-En esta carpeta se encuentra el script de ingesta donde se cargan y se limpian todos los datos que se van a utilizar en el reto.
+## MC_cerrada.py
+Contiene las funciones de MonteCarlo y fórmula cerrada
 
-## Análisis
-**(Se recomienda encarecidamente ejecutar después de *_01_Ingesta_Limpieza*)**
-En esta carpeta se encuentran 2 scripts
+## Funciones_redes.py
+Contiene las funciones de las redes neuronales recurrentes
 
-### 
+## 01-Ingesta_Limpieza.ipynb
+En este script  se cargan, se limpian y procesan los datos que se van a utilizar en el reto.
+
+## 02-Seleccion_activos.ipynb
 En este ipynb se encuentra el análisis y la selección de los activos financieros que formarán la cartera
 
-### 
-En este ipynb se realiza la descomposicón de las series temporales en sus componentes 
+## 03-Analisis_activos.ipynb
+En este ipynb se realiza la descomposicón de las series temporales. (Data Science)
 
-## Métodos
-En esta carpeta se encuentran los scripts que contienen el desarrollo de los diferentes métodos
-
-### RNN
-Este script contiene la implementación de una Red Neuronal Recurrente (RNN) para la predicción de las series temporales.
-
-### Montecarlo
+## 04-MonteCarlo_y_Formula_cerrada.ipynb
 En este script se realiza la simulación de MonteCarlo y el cálculo a través de la fórmula cerrada proporcionada por BBVA
 
-### Comparación de métodos
+## 05-RNN.ipynb
+Este script contiene la implementación de una Red Neuronal Recurrente (RNN) 
+
+## 06-Comparativa_metodos.ipynb
 En este script se comparan los resultados de los 3 métodos:
   - Montecarlo
   - Fórmula cerrada BBVA
   - RNN
-
-## Graficos.ipynb
-Aquí se ubican los gráficos creados para luego ser utilizado en informe o presentaciones.
 
 ## Integrantes
 - Anne Martin Basterrechea
