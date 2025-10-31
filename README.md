@@ -12,6 +12,11 @@ Aquí se tienen que incluir todos los datos que se han otorgado al principido de
 ### Transformados
 Datos generados después de la limpieza
 
+## Graficos
+En esta carpeta se almacenarán los gráficos que se van generando a lo largo del proyecto
+
+## Modelos
+En esta carpeta se almacenarán los modelos realizados 
 ## MC_cerrada.py
 Contiene las funciones de MonteCarlo y fórmula cerrada
 
